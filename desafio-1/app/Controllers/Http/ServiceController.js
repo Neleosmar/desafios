@@ -1,5 +1,8 @@
 'use strict'
 
+const Service = use('App/Models/Service')
+
+
 class ServiceController {
 
     async create({ request, auth }) {
